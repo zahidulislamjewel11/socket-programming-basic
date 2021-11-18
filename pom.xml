@@ -29,14 +29,16 @@
           <version>3.0.0</version>
           <configuration>
               <mainClass>com.zahid.Main</mainClass>
-              <mainClass>com.zahid.echoserver.EchoClient</mainClass>
+              <!-- <mainClass>com.zahid.echoserver.EchoClient</mainClass> -->
               <!-- <mainClass>com.zahid.reverseechoserver.ReverseClient</mainClass> -->
               <!-- <mainClass>com.zahid.primeserver.PrimeClient</mainClass> -->
               <!-- <mainClass>com.zahid.factorialserver.FactorialClient</mainClass> -->
               <!-- <mainClass>com.zahid.duochatserver.FirstClient</mainClass> -->
               <!-- <mainClass>com.zahid.multithreadedserver.Client</mainClass> -->
               <!-- <mainClass>com.zahid.datagramserver.DatagramClient</mainClass> -->
-              <mainClass>com.zahid.multiclientserver.ClientOne</mainClass>
+              <!-- <mainClass>com.zahid.multiclientserver.ClientOne</mainClass> -->
+              <!-- <mainClass>com.zahid.datetimeserver.Client</mainClass> -->
+              <mainClass>com.zahid.quoteserver.QuoteClient</mainClass>
           </configuration>
       </plugin>      
       

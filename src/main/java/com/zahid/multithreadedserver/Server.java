@@ -15,7 +15,6 @@ public class Server {
                 count++;
                 System.out.printf("[Server] Client-%02d connected\n", count);
                 new ServerThread(clientSocket);
-                new ServerThread(clientSocket);
             }
         } catch (Exception e) {}
 

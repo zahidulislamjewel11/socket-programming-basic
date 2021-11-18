@@ -9,7 +9,6 @@ public class DatagramServer {
         System.out.println("[Server] Started");
         try (
             DatagramSocket ds = new DatagramSocket(2000);
-
         ) {
             String incomingText;
             String outgoingText;

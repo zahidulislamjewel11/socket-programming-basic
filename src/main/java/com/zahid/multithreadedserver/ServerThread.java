@@ -12,7 +12,7 @@ public class ServerThread implements Runnable {
 
     public ServerThread(Socket clientSocket) {
         this.clientSocket = clientSocket;
-        new Thread(this);
+        new Thread(this).start();;
     }
 
     @Override
